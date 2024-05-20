@@ -228,7 +228,7 @@ text-align: center;
 .about-stats .progress-bars {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 0.5rem;
 }
 .about-stats .progress-bars .progress-bar {
   display: flex;
@@ -237,6 +237,7 @@ text-align: center;
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
   font-weight: 500;
+  margin-left: 150px
 }
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
