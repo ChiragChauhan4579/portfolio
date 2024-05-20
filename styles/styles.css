@@ -22,7 +22,7 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
+  --color-primary: #fafafa;
   --color-secondary: #2d7af7;
   --color-white: #454e56;
   --color-black: #000;
@@ -31,7 +31,7 @@
   --color-grey-2: #6c7983;
   --color-grey-3: #6c7983;
   --color-grey-4: #FFFFFF;
-  --color-grey-5: #f8f8f8;
+  --color-grey-5: #e0e0e0;
   --color-grey-6: #12181b;
 }
 
@@ -348,6 +348,7 @@ text-align: center;
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+text-align: justify
 }
 
 .port-text {
